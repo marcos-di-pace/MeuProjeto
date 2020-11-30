@@ -23,7 +23,6 @@ main, .content {
 }
 .redes-sociais ul li {
     margin-left: 25px;
-    display: inline-block;
     float:left;
     list-style: none;    
 }
@@ -176,6 +175,7 @@ li.slick-active button {
 .bloco-imagem {
     height: 300px;
     border: 1px solid #c5c5c5;
+    border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 10px;
@@ -206,4 +206,16 @@ h3 {
     background-image: url(../imagens/flecha^.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img {
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
 }
