@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 ul {
     padding: 0px!important;
@@ -55,7 +55,7 @@ main, .content {
 .menu ul li a {
     color: #8b8b8b;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     text-transform:uppercase;
 }
 .menu {
@@ -91,7 +91,7 @@ button.slick-prev {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../imagens/arrowL.png);
+    background-image: url('../imagens/arrowL.png');
     top: 35%;
     left: 14%;
 }
@@ -103,7 +103,7 @@ button.slick-next {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../imagens/arrowR.png);
+    background-image: url('../imagens/arrowR.png');
     top: 35%;
     right: 14%;
 }
@@ -119,8 +119,8 @@ button.slick-next {
 .slick-dots li button {
     font-size: 0px;
     border: 5px solid #ffffff;
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -130,7 +130,7 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 50%;
-    top: 580px;
+    top: 560px;
 }
 li.slick-active button {
     background: #00bac6;
@@ -139,34 +139,29 @@ li.slick-active button {
     padding-right: 10px;
     display: inline-block;
 }
-
 .texto-destaque {
     text-align: center;
 }
-
 .texto-destaque strong {
     color: #646464;
 }
-
 .texto-destaque h1 {
     text-transform: uppercase;
     font-size:30px;
     color: #818181;
 }
-
 .texto-destaque p {
     font-size: 15px;
     color: #9a9a9a;
 }
-
 .col-3 {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 29%;
     float: left;
     position: relative;
 }
-
 .bloco-imagem img {
     margin: 0 auto;
     width: 100%;
@@ -180,34 +175,28 @@ li.slick-active button {
     padding-bottom: 15px;
     margin-left: 10px;
 }
-
 .bloco-imagem b, p {
     text-align: left;
 }
-
 .bloco-texto {
     margin-top: 3em;
 }
-
 h3 {
     font-weight: normal!important;
 }
-
 .bloco-imagens-texto {
     background-color: #eeeeee;
 }
-
 .bloco-imagens-texto:before {
     width: 100%;
     display: inline-block;
     content: '';
     height: 52px;
     background: #ffffff;
-    background-image: url(../imagens/flecha^.png);
+    background-image: url('../imagens/flecha^.png');
     background-repeat: no-repeat;
     background-position: center;
 }
-
 .bloco-imagens-texto:after {
     width: 100%;
     display: inline-block;
@@ -215,33 +204,78 @@ h3 {
     height: 70px;
     background: #eeeeee;
 }
-
 .col-4 {
     float: left;
     width: 23%;
     text-align: center;
 }
-
 .col-4 img {
     cursor: pointer;
     margin: 0 auto;
     padding-top: 1em;
     vertical-align: middle;
 }
-
 .col-4 img:hover {
-    margin-top: 10px;
-    position: relative;
+    margin-top: 10px!important;
+    position: relative!important;
 }
-
 .bloco-logos {
     height: 170px;
 }
-
-.blocos-logos img {
+.bloco-logos img {
     margin-top: 50px;
 }
-
 .footer h3 {
     text-align: left;
+}
+.footer {
+    background-image: url('../imagens/footer.png');
+    color: #ffffff;
+}
+.footer-2 {
+    background-image: url('../imagens/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+.footer p {
+    width: 90%;
+    align-items: left;
+}
+.footer-2 p {
+    padding: 10px;
+}
+.clock {
+    color:#898989;
+    
+}
+.col-4 hr {
+    width: 90%;
+    float: left;
+}
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url('../imagens/Clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+.local:before, .email:before, .fone:before {
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../imagens/location.png');
+}
+.email:before {
+    background-image: url('../imagens/email.png');
+}
+.fone:before {
+    background-image: url('../imagens/telefone.png');
 }
