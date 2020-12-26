@@ -130,7 +130,7 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 50%;
-    top: 560px;
+    top: 480px;
 }
 li.slick-active button {
     background: #00bac6;
